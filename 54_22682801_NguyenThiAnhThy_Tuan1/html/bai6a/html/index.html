@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        height: 700px;
+        width: 800px;
+        background-color: rgb(46, 199, 250);
+        margin: 0px auto;
+        padding: 0px auto;
+        border: 1px solid;
+      }
+      img{
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+        <center><img src="../img/Jackson.jpg">
+            <h2>Registration Form</h2>
+            <p>Register your Jackson Electronics product here</p>
+            <form name="REG">
+                <table>
+                    <td>First Name:</td>
+                    <td colspan="2"><input name="FirstName" size="15"> Last Name:<input name="LastName" size="15"></td>
+                    <tr>
+                        <td>Address #1:</td>
+                        <td colspan="2"><input name="Address1" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Address #2:</td>
+                        <td colspan="2"><input name="Address2" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td colspan="2"><input name="City">State:<input name="State" size="3"> Zip:<input name="ZIP" size="8"></td>
+                    </tr>
+                    <tr>
+                        <td>Country:</td>
+                        <td colspan="2"><input name="Country" value="United States"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Product:</td>
+                        <td colspan="2"><select name="Product"><option>ScanMaster<option>ScanMaster II<option>LaserPrint 1000<option>LaserPrint 5000<option>Print/Scan 150<option>Print/Scan 250</select></td>
+                    </tr>
+                    <tr>
+                        <td>Date Purchased:</td>
+                        <td colspan="2"><input name="Date"></td>
+                    </tr>
+                    <tr>
+                        <td>Serial #:</td>
+                        <td colspan="2"><input name="Serial"></td>
+                    </tr>
+                    <tr>
+                        <td valign="TOP">Used for:</td>
+                        <td valign="TOP"><input type="RADIO" name="USE" value="HOME">Home<br><input type="RADIO" name="USE" value="BUS" checked="CHECKED">Business<br><input type="RADIO" name="USE" value="GOV">Government</td>
+                        <td valign="TOP"><input type="RADIO" name="USE" value="ED">Educational Institution<br><input type="RADIO" name="USE" value="OTHER">Other</td>
+                    </tr>
+                    <tr>
+                        <td valign="TOP">System (check all that apply):</td>
+                        <td valign="TOP"><input type="CHECKBOX" name="WIN9598NT">Windows 95/98/NT<br><input type="CHECKBOX" name="WINDOS">Windows 3.x/DOS<br><input type="CHECKBOX" name="MAC">Macintosh</td>
+                        <td valign="TOP"><input type="CHECKBOX" name="UNIX">UNIX<br><input type="CHECKBOX" name="OTHEROS">Other</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="TOP">Comments?:</td>
+                        <td colspan="2"><textarea rows="5" cols="40" ></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td valign="TOP"><button>Click to Register </button></td>
+                        <td valign="TOP"><button>Click to cancel </button></td>
+                        
+                        
+                    </tr>
+                </table>
+        </center>
+    </div>
+  </body>
+</html>

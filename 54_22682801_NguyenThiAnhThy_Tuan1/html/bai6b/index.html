@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .wrap {
+        height: 450px;
+        width: 700px;
+
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid rgb(26, 153, 217);
+      }
+      .contact {
+        height: 60%;
+        width: 98%;
+        border: 1px solid #333;
+        margin-top: 2%;
+        margin-left: 1%;
+        position: relative;
+      }
+      .nav {
+        background-color: rgb(254, 254, 254);
+        position: absolute;
+        width: 20%;
+        margin-top: -13px;
+        margin-left: 5px;
+      }
+      .footer {
+        margin-top: 20px;
+        border: 1px solid #333;
+      }
+      .label {
+        background-color: rgb(254, 254, 254);
+        position: absolute;
+        width: 9%;
+        height: 2%;
+        margin-top: -13px;
+        margin-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Contact Us</h1>
+      <div class="contact">
+        <div class="nav">
+          <h3>Your message:</h3>
+        </div>
+
+        <form action="" style="margin: 20px">
+          <table>
+            <tr>
+              <td>To</td>
+              <td colspan="2">
+                <input name="Address1" size="30" value="Example Cafe" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Your email</td>
+              <td colspan="2"><input name="Address1" size="30" /></td>
+            </tr>
+            <tr>
+              <td>Message</td>
+              <td><textarea rows="10" cols="50"></textarea></td>
+            </tr>
+            <tr>
+              <td>Attach File</td>
+              <td><button>Choose File</button> No file Chosen</td>
+            </tr>
+          </table>
+        </form>
+      </div>
+
+      <div class="footer">
+        <div class="label">How you found us:</div>
+
+        <table style="margin: 20px">
+          <tr>
+            <td>How did you hear of us</td>
+            <td colspan="2">
+              <select name="Product">
+                <option>Google</option>
+                <option>ScanMaster II</option>
+                <option>LaserPrint 1000</option>
+                <option>LaserPrint 5000</option>
+                <option>Print/Scan 150</option>
+                <option>Print/Scan 250</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Newsletter</td>
+            <td>
+              <input type="checkbox" /> Ensure this box is check if you would
+              like to receive email updates
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <button>Send message</button>
+    </div>
+  </body>
+</html>
